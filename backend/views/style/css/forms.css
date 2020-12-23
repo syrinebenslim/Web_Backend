@@ -1,0 +1,44 @@
+.contact-form{
+  display: flex;
+}
+
+.input-fields{
+  display: flex;
+  flex-direction: column;
+  margin-right: 4%;
+}
+
+.input-fields,
+.msg{
+  width: 48%;
+}
+
+.input-fields .input,
+.description textarea{
+  margin: 10px 0;
+  background: transparent;
+  border: 0px;
+  border: 2px solid #D0D0D0;
+  padding: 10px;
+  color: black;
+  width: 100%;
+}
+
+.description textarea{
+  height: 180px;
+}
+
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: #D0D0D0;
+}
+
+.btn {
+    background: #629aa9;
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+}
